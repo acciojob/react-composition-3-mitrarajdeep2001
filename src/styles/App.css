@@ -12,7 +12,7 @@ body{
     align-items: center;
 }
 
-.tooltip {
+.tool-tip {
     position: relative;
     display: block;
     border-bottom: 1px dotted red;
@@ -20,7 +20,7 @@ body{
     cursor: pointer;
   }
   
-  .tooltip .tooltiptext {
+  .tool-tip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: red;
@@ -35,7 +35,7 @@ body{
     margin-left: -60px;
   }
   
-  .tooltip .tooltiptext::after {
+  .tool-tip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -46,6 +46,6 @@ body{
     border-color: red transparent transparent transparent;
   }
   
-  .tooltip:hover .tooltiptext {
+  .tool-tip:hover .tooltiptext {
     visibility: visible;
   }
